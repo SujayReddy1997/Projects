@@ -16,6 +16,17 @@
 - Employed malware analysis platforms including VirusTotal, Any.run, hybrid-analysis and FileScan to enhance analysis and gather additional TTP’s.
 - Generated comprehensive documentations detailing malware behavior, communication patterns, file, and process manipulation, and provided recommendations for improved security.
 
+# Computer Forensics:
+- Designed and executed a realistic cybersecurity incident with 3 systems replicating a data leak scenario.
+- Conducted forensic examination of the suspected systems, using tools such as FTK, Registry Explorer, Redline, Autopsy and network traffic analysis using Wireshark.
+- Created a detailed SANS report, outlining the entire investigation process, analysis of evidence, and 20+ findings, showcasing strong technical writing skills.
+
+# Vulnerability Management with Nessus:
+- Conducted comprehensive vulnerability scans using Nessus tools on virtual box machines, employing a combination of credential and credential-less scanning techniques.
+- The tools were administered, encompassing tasks such as managing scanning schedules, identifying high risk assets, controlling user access, and maintaining accurate configuration settings.
+- Analyzed scan results from these tools to identify and prioritize vulnerabilities based on risk and asset criticality, managing vulnerability life cycle to ensure accurate and actionable insights for effective remediation.
+- Generated comprehensive report, dashboards using vulnerability scans, with 3 Critical, 5 High, and other low-level severities.
+
 # Phishing Email Analysis:
 - Investigated 20+ phishing emails using email header and body analysis techniques using tools like mha.azurewebsites.net and mailheader.org, urlextractor, cyberchef & urlscan.io to identify malicious indicators.
 - Employed security measures by generating MD5 hash values of attachments, URL filtering, enabling verification in popular security platforms such as VirusTotal, AnyRun and hybrid-analysis thereby safeguarding against malicious content.
