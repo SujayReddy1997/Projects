@@ -9,3 +9,20 @@
 - Investigated alerts related to activities such as brute force, DOS/DDOS attacks, ransomware, phishing emails, and malicious documents by utilizing 1000+ logs from SIEM, 40+ endpoint systems from EDR and threat intelligence data to identify indicators of compromise (IOCs), root cause and suspicious activity.
 - Implemented effective response actions for true positive alerts and escalation, reporting for confirmed security issues to Incident Response IR teams, while promptly closing false positive alerts with detailed explanations.
 - Quarantined compromised systems and applied temporary measures for containment of the threat, included MD5 hash values, malicious URLs, and other indicator in the report for further mitigation of similar incidents.
+  
+# Malware Analysis:
+- Constructed a sandbox virtual machine environment for malware analysis, 5 different tools such as Process Hacker, Process Monitor, Wireshark, and Regshot.
+- Analyzed 7 different malwares, documenting essential details including contacted IP addresses, generated files, initiated processes, executed sub-processes, and process migration.
+- Employed malware analysis platforms including VirusTotal, Any.run, hybrid-analysis and FileScan to enhance analysis and gather additional TTP’s.
+- Generated comprehensive documentations detailing malware behavior, communication patterns, file, and process manipulation, and provided recommendations for improved security.
+
+# Phishing Email Analysis:
+- Investigated 20+ phishing emails using email header and body analysis techniques using tools like mha.azurewebsites.net and mailheader.org, urlextractor, cyberchef & urlscan.io to identify malicious indicators.
+- Employed security measures by generating MD5 hash values of attachments, URL filtering, enabling verification in popular security platforms such as VirusTotal, AnyRun and hybrid-analysis thereby safeguarding against malicious content.
+- Leveraged the PhishTool API to comprehensively analyze email headers, body content, attachments, and embedded links for enhanced security assessment.
+
+# Security Incident and Event Management with Splunk:
+- Utilized Splunk search on a dataset with over 100,000 events to work on multiple use cases, including identifying top IP addresses associated with failed SSH attempts for admin and root accounts, as well as detecting and analyzing 200 and 404 status codes with advanced filtering on various other parameters.
+- Developed and scheduled reports to detect errors within specified time frames, triggering email notifications for prompt action.
+- Created informative dashboards with correlation charts for enhanced visibility and efficient data analysis. Configured alerts with throttling and Slack integration for real-time notifications.
+
